@@ -14,13 +14,13 @@
 		003B6EA819C0D05300E21E02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B6EA719C0D05300E21E02 /* main.m */; };
 		003B6EAC19C0D05300E21E02 /* RFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B6EAB19C0D05300E21E02 /* RFAppDelegate.m */; };
 		003B6EAF19C0D05300E21E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003B6EAD19C0D05300E21E02 /* Main.storyboard */; };
-		003B6EB219C0D05300E21E02 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B6EB119C0D05300E21E02 /* RFViewController.m */; };
 		003B6EB419C0D05300E21E02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003B6EB319C0D05300E21E02 /* Images.xcassets */; };
 		003B6EBB19C0D05300E21E02 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B6EBA19C0D05300E21E02 /* XCTest.framework */; };
 		003B6EBC19C0D05300E21E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B6E9B19C0D05300E21E02 /* Foundation.framework */; };
 		003B6EBD19C0D05300E21E02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B6E9F19C0D05300E21E02 /* UIKit.framework */; };
 		003B6EC519C0D05300E21E02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003B6EC319C0D05300E21E02 /* InfoPlist.strings */; };
 		003B6EC719C0D05300E21E02 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B6EC619C0D05300E21E02 /* UITableViewController_Challenge_SolutionTests.m */; };
+		003B6ED219C0D20C00E21E02 /* RFSuperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B6ED119C0D20C00E21E02 /* RFSuperTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		003B6EAA19C0D05300E21E02 /* RFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFAppDelegate.h; sourceTree = "<group>"; };
 		003B6EAB19C0D05300E21E02 /* RFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAppDelegate.m; sourceTree = "<group>"; };
 		003B6EAE19C0D05300E21E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		003B6EB019C0D05300E21E02 /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
-		003B6EB119C0D05300E21E02 /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
 		003B6EB319C0D05300E21E02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		003B6EB919C0D05300E21E02 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		003B6EBA19C0D05300E21E02 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		003B6EC219C0D05300E21E02 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		003B6EC419C0D05300E21E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		003B6EC619C0D05300E21E02 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		003B6ED019C0D20C00E21E02 /* RFSuperTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFSuperTableViewController.h; path = ../RFSuperTableViewController.h; sourceTree = "<group>"; };
+		003B6ED119C0D20C00E21E02 /* RFSuperTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFSuperTableViewController.m; path = ../RFSuperTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				003B6EAA19C0D05300E21E02 /* RFAppDelegate.h */,
 				003B6EAB19C0D05300E21E02 /* RFAppDelegate.m */,
 				003B6EAD19C0D05300E21E02 /* Main.storyboard */,
-				003B6EB019C0D05300E21E02 /* RFViewController.h */,
-				003B6EB119C0D05300E21E02 /* RFViewController.m */,
+				003B6ED019C0D20C00E21E02 /* RFSuperTableViewController.h */,
+				003B6ED119C0D20C00E21E02 /* RFSuperTableViewController.m */,
 				003B6EB319C0D05300E21E02 /* Images.xcassets */,
 				003B6EA219C0D05300E21E02 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				003B6EAC19C0D05300E21E02 /* RFAppDelegate.m in Sources */,
+				003B6ED219C0D20C00E21E02 /* RFSuperTableViewController.m in Sources */,
 				003B6EA819C0D05300E21E02 /* main.m in Sources */,
-				003B6EB219C0D05300E21E02 /* RFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
